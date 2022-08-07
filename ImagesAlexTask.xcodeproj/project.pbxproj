@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4E56F4289F802C0076E872 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E56F3289F802C0076E872 /* SignInViewController.swift */; };
+		FA4E56F8289F8CB90076E872 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E56F7289F8CB90076E872 /* SignUpViewController.swift */; };
+		FA4E56FB289F8E640076E872 /* Extensions+label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E56FA289F8E640076E872 /* Extensions+label.swift */; };
+		FA4E56FD289F8F0D0076E872 /* Extensions+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E56FC289F8F0D0076E872 /* Extensions+Button.swift */; };
+		FA4E56FF289F8F250076E872 /* Extensions+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E56FE289F8F250076E872 /* Extensions+TextField.swift */; };
+		FA4E5705289FB0BF0076E872 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E5704289FB0BF0076E872 /* SignUpViewModel.swift */; };
+		FA844953289DADB400B07359 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA844952289DADB400B07359 /* Secret.swift */; };
+		FA844955289DADFD00B07359 /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA844954289DADFD00B07359 /* BaseUrl.swift */; };
+		FA84495C289E238E00B07359 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84495B289E238E00B07359 /* ImageDetailViewController.swift */; };
+		FABE000B289D678B00C12245 /* PixabayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE000A289D678B00C12245 /* PixabayModel.swift */; };
+		FABE000F289D67E200C12245 /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE000E289D67E200C12245 /* ImagesViewModel.swift */; };
+		FABE0011289D682C00C12245 /* ViewModelGetObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE0010289D682C00C12245 /* ViewModelGetObject.swift */; };
+		FABE0018289D690500C12245 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE0016289D690500C12245 /* ImageCell.swift */; };
+		FABEFFD6289D5E2200C12245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFD5289D5E2200C12245 /* AppDelegate.swift */; };
+		FABEFFD8289D5E2200C12245 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFD7289D5E2200C12245 /* SceneDelegate.swift */; };
+		FABEFFE0289D5E2200C12245 /* ImagesAlexTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFDE289D5E2200C12245 /* ImagesAlexTask.xcdatamodeld */; };
+		FABEFFE2289D5E2400C12245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABEFFE1289D5E2400C12245 /* Assets.xcassets */; };
+		FABEFFE5289D5E2400C12245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABEFFE3289D5E2400C12245 /* LaunchScreen.storyboard */; };
+		FABEFFF0289D5E2500C12245 /* ImagesAlexTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFEF289D5E2500C12245 /* ImagesAlexTaskTests.swift */; };
+		FABEFFFA289D5E2500C12245 /* ImagesAlexTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFF9289D5E2500C12245 /* ImagesAlexTaskUITests.swift */; };
+		FABEFFFC289D5E2500C12245 /* ImagesAlexTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABEFFFB289D5E2500C12245 /* ImagesAlexTaskUITestsLaunchTests.swift */; };
+		FACC4E5D289E85050091A4DB /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC4E5C289E85050091A4DB /* ImagesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABEFFEC289D5E2500C12245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABEFFCA289D5E2200C12245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABEFFD1289D5E2200C12245;
+			remoteInfo = ImagesAlexTask;
+		};
+		FABEFFF6289D5E2500C12245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABEFFCA289D5E2200C12245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABEFFD1289D5E2200C12245;
+			remoteInfo = ImagesAlexTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4E56F3289F802C0076E872 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FA4E56F7289F8CB90076E872 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA4E56FA289F8E640076E872 /* Extensions+label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+label.swift"; sourceTree = "<group>"; };
+		FA4E56FC289F8F0D0076E872 /* Extensions+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Button.swift"; sourceTree = "<group>"; };
+		FA4E56FE289F8F250076E872 /* Extensions+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+TextField.swift"; sourceTree = "<group>"; };
+		FA4E5704289FB0BF0076E872 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FA844952289DADB400B07359 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		FA844954289DADFD00B07359 /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		FA84495B289E238E00B07359 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		FABE000A289D678B00C12245 /* PixabayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayModel.swift; sourceTree = "<group>"; };
+		FABE000E289D67E200C12245 /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		FABE0010289D682C00C12245 /* ViewModelGetObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelGetObject.swift; sourceTree = "<group>"; };
+		FABE0016289D690500C12245 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FABEFFD2289D5E2200C12245 /* ImagesAlexTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagesAlexTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABEFFD5289D5E2200C12245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABEFFD7289D5E2200C12245 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FABEFFDF289D5E2200C12245 /* ImagesAlexTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImagesAlexTask.xcdatamodel; sourceTree = "<group>"; };
+		FABEFFE1289D5E2400C12245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABEFFE4289D5E2400C12245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABEFFE6289D5E2400C12245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABEFFEB289D5E2500C12245 /* ImagesAlexTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagesAlexTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABEFFEF289D5E2500C12245 /* ImagesAlexTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAlexTaskTests.swift; sourceTree = "<group>"; };
+		FABEFFF5289D5E2500C12245 /* ImagesAlexTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagesAlexTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABEFFF9289D5E2500C12245 /* ImagesAlexTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAlexTaskUITests.swift; sourceTree = "<group>"; };
+		FABEFFFB289D5E2500C12245 /* ImagesAlexTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAlexTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FACC4E5C289E85050091A4DB /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABEFFCF289D5E2200C12245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFE8289D5E2500C12245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFF2289D5E2500C12245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4E56F0289F7FF10076E872 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E56F2289F80020076E872 /* SignUp */,
+				FA4E56F1289F7FFB0076E872 /* SignIn */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		FA4E56F1289F7FFB0076E872 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E56F3289F802C0076E872 /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FA4E56F2289F80020076E872 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E56F7289F8CB90076E872 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FA4E5703289FB0990076E872 /* SignUpViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5704289FB0BF0076E872 /* SignUpViewModel.swift */,
+			);
+			path = SignUpViewModel;
+			sourceTree = "<group>";
+		};
+		FA84494E289DA9A300B07359 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E56FA289F8E640076E872 /* Extensions+label.swift */,
+				FA4E56FC289F8F0D0076E872 /* Extensions+Button.swift */,
+				FA4E56FE289F8F250076E872 /* Extensions+TextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA844956289E233C00B07359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA844957289E234500B07359 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA844957289E234500B07359 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E56F0289F7FF10076E872 /* Authorization */,
+				FA844959289E236100B07359 /* ImageDetail */,
+				FA844958289E235200B07359 /* imageController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA844958289E235200B07359 /* imageController */ = {
+			isa = PBXGroup;
+			children = (
+				FACC4E5C289E85050091A4DB /* ImagesViewController.swift */,
+			);
+			path = imageController;
+			sourceTree = "<group>";
+		};
+		FA844959289E236100B07359 /* ImageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA84495B289E238E00B07359 /* ImageDetailViewController.swift */,
+			);
+			path = ImageDetail;
+			sourceTree = "<group>";
+		};
+		FA84495D289E245B00B07359 /* ObjectsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABE0010289D682C00C12245 /* ViewModelGetObject.swift */,
+			);
+			path = ObjectsViewModel;
+			sourceTree = "<group>";
+		};
+		FABE0008289D5E6000C12245 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FABEFFD7289D5E2200C12245 /* SceneDelegate.swift */,
+				FABEFFD5289D5E2200C12245 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FABE0009289D676000C12245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FABE000A289D678B00C12245 /* PixabayModel.swift */,
+				FA844952289DADB400B07359 /* Secret.swift */,
+				FA844954289DADFD00B07359 /* BaseUrl.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FABE000C289D67B900C12245 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5703289FB0990076E872 /* SignUpViewModel */,
+				FA84495D289E245B00B07359 /* ObjectsViewModel */,
+				FABE000D289D67CB00C12245 /* ImagesViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FABE000D289D67CB00C12245 /* ImagesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABE000E289D67E200C12245 /* ImagesViewModel.swift */,
+			);
+			path = ImagesViewModel;
+			sourceTree = "<group>";
+		};
+		FABE0012289D685000C12245 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FABE0016289D690500C12245 /* ImageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FABEFFC9289D5E2200C12245 = {
+			isa = PBXGroup;
+			children = (
+				FABEFFD4289D5E2200C12245 /* ImagesAlexTask */,
+				FABEFFEE289D5E2500C12245 /* ImagesAlexTaskTests */,
+				FABEFFF8289D5E2500C12245 /* ImagesAlexTaskUITests */,
+				FABEFFD3289D5E2200C12245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABEFFD3289D5E2200C12245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABEFFD2289D5E2200C12245 /* ImagesAlexTask.app */,
+				FABEFFEB289D5E2500C12245 /* ImagesAlexTaskTests.xctest */,
+				FABEFFF5289D5E2500C12245 /* ImagesAlexTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABEFFD4289D5E2200C12245 /* ImagesAlexTask */ = {
+			isa = PBXGroup;
+			children = (
+				FABE0008289D5E6000C12245 /* App */,
+				FA844956289E233C00B07359 /* View */,
+				FABE0009289D676000C12245 /* Model */,
+				FABE000C289D67B900C12245 /* ViewModel */,
+				FABE0012289D685000C12245 /* Cell */,
+				FA84494E289DA9A300B07359 /* Extensions */,
+				FABEFFE1289D5E2400C12245 /* Assets.xcassets */,
+				FABEFFE3289D5E2400C12245 /* LaunchScreen.storyboard */,
+				FABEFFE6289D5E2400C12245 /* Info.plist */,
+				FABEFFDE289D5E2200C12245 /* ImagesAlexTask.xcdatamodeld */,
+			);
+			path = ImagesAlexTask;
+			sourceTree = "<group>";
+		};
+		FABEFFEE289D5E2500C12245 /* ImagesAlexTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABEFFEF289D5E2500C12245 /* ImagesAlexTaskTests.swift */,
+			);
+			path = ImagesAlexTaskTests;
+			sourceTree = "<group>";
+		};
+		FABEFFF8289D5E2500C12245 /* ImagesAlexTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABEFFF9289D5E2500C12245 /* ImagesAlexTaskUITests.swift */,
+				FABEFFFB289D5E2500C12245 /* ImagesAlexTaskUITestsLaunchTests.swift */,
+			);
+			path = ImagesAlexTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABEFFD1289D5E2200C12245 /* ImagesAlexTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABEFFFF289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTask" */;
+			buildPhases = (
+				FABEFFCE289D5E2200C12245 /* Sources */,
+				FABEFFCF289D5E2200C12245 /* Frameworks */,
+				FABEFFD0289D5E2200C12245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagesAlexTask;
+			productName = ImagesAlexTask;
+			productReference = FABEFFD2289D5E2200C12245 /* ImagesAlexTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABEFFEA289D5E2500C12245 /* ImagesAlexTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE0002289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTaskTests" */;
+			buildPhases = (
+				FABEFFE7289D5E2500C12245 /* Sources */,
+				FABEFFE8289D5E2500C12245 /* Frameworks */,
+				FABEFFE9289D5E2500C12245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABEFFED289D5E2500C12245 /* PBXTargetDependency */,
+			);
+			name = ImagesAlexTaskTests;
+			productName = ImagesAlexTaskTests;
+			productReference = FABEFFEB289D5E2500C12245 /* ImagesAlexTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FABEFFF4289D5E2500C12245 /* ImagesAlexTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE0005289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTaskUITests" */;
+			buildPhases = (
+				FABEFFF1289D5E2500C12245 /* Sources */,
+				FABEFFF2289D5E2500C12245 /* Frameworks */,
+				FABEFFF3289D5E2500C12245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABEFFF7289D5E2500C12245 /* PBXTargetDependency */,
+			);
+			name = ImagesAlexTaskUITests;
+			productName = ImagesAlexTaskUITests;
+			productReference = FABEFFF5289D5E2500C12245 /* ImagesAlexTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABEFFCA289D5E2200C12245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FABEFFD1289D5E2200C12245 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FABEFFEA289D5E2500C12245 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FABEFFD1289D5E2200C12245;
+					};
+					FABEFFF4289D5E2500C12245 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FABEFFD1289D5E2200C12245;
+					};
+				};
+			};
+			buildConfigurationList = FABEFFCD289D5E2200C12245 /* Build configuration list for PBXProject "ImagesAlexTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABEFFC9289D5E2200C12245;
+			productRefGroup = FABEFFD3289D5E2200C12245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABEFFD1289D5E2200C12245 /* ImagesAlexTask */,
+				FABEFFEA289D5E2500C12245 /* ImagesAlexTaskTests */,
+				FABEFFF4289D5E2500C12245 /* ImagesAlexTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABEFFD0289D5E2200C12245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEFFE5289D5E2400C12245 /* LaunchScreen.storyboard in Resources */,
+				FABEFFE2289D5E2400C12245 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFE9289D5E2500C12245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFF3289D5E2500C12245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABEFFCE289D5E2200C12245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE000F289D67E200C12245 /* ImagesViewModel.swift in Sources */,
+				FA4E56FB289F8E640076E872 /* Extensions+label.swift in Sources */,
+				FA84495C289E238E00B07359 /* ImageDetailViewController.swift in Sources */,
+				FABE0011289D682C00C12245 /* ViewModelGetObject.swift in Sources */,
+				FABEFFD6289D5E2200C12245 /* AppDelegate.swift in Sources */,
+				FA4E5705289FB0BF0076E872 /* SignUpViewModel.swift in Sources */,
+				FABEFFE0289D5E2200C12245 /* ImagesAlexTask.xcdatamodeld in Sources */,
+				FA4E56F4289F802C0076E872 /* SignInViewController.swift in Sources */,
+				FABE0018289D690500C12245 /* ImageCell.swift in Sources */,
+				FACC4E5D289E85050091A4DB /* ImagesViewController.swift in Sources */,
+				FA4E56FF289F8F250076E872 /* Extensions+TextField.swift in Sources */,
+				FA4E56FD289F8F0D0076E872 /* Extensions+Button.swift in Sources */,
+				FA4E56F8289F8CB90076E872 /* SignUpViewController.swift in Sources */,
+				FA844955289DADFD00B07359 /* BaseUrl.swift in Sources */,
+				FABEFFD8289D5E2200C12245 /* SceneDelegate.swift in Sources */,
+				FA844953289DADB400B07359 /* Secret.swift in Sources */,
+				FABE000B289D678B00C12245 /* PixabayModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFE7289D5E2500C12245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEFFF0289D5E2500C12245 /* ImagesAlexTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEFFF1289D5E2500C12245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEFFFA289D5E2500C12245 /* ImagesAlexTaskUITests.swift in Sources */,
+				FABEFFFC289D5E2500C12245 /* ImagesAlexTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABEFFED289D5E2500C12245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABEFFD1289D5E2200C12245 /* ImagesAlexTask */;
+			targetProxy = FABEFFEC289D5E2500C12245 /* PBXContainerItemProxy */;
+		};
+		FABEFFF7289D5E2500C12245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABEFFD1289D5E2200C12245 /* ImagesAlexTask */;
+			targetProxy = FABEFFF6289D5E2500C12245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABEFFE3289D5E2400C12245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABEFFE4289D5E2400C12245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABE0000289D5E2500C12245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagesAlexTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABE0001289D5E2500C12245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagesAlexTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FABE0003289D5E2500C12245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagesAlexTask.app/ImagesAlexTask";
+			};
+			name = Debug;
+		};
+		FABE0004289D5E2500C12245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagesAlexTask.app/ImagesAlexTask";
+			};
+			name = Release;
+		};
+		FABE0006289D5E2500C12245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagesAlexTask;
+			};
+			name = Debug;
+		};
+		FABE0007289D5E2500C12245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.image.task.ImagesAlexTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagesAlexTask;
+			};
+			name = Release;
+		};
+		FABEFFFD289D5E2500C12245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FABEFFFE289D5E2500C12245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABE0002289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE0003289D5E2500C12245 /* Debug */,
+				FABE0004289D5E2500C12245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABE0005289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE0006289D5E2500C12245 /* Debug */,
+				FABE0007289D5E2500C12245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABEFFCD289D5E2200C12245 /* Build configuration list for PBXProject "ImagesAlexTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABEFFFD289D5E2500C12245 /* Debug */,
+				FABEFFFE289D5E2500C12245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABEFFFF289D5E2500C12245 /* Build configuration list for PBXNativeTarget "ImagesAlexTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE0000289D5E2500C12245 /* Debug */,
+				FABE0001289D5E2500C12245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FABEFFDE289D5E2200C12245 /* ImagesAlexTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FABEFFDF289D5E2200C12245 /* ImagesAlexTask.xcdatamodel */,
+			);
+			currentVersion = FABEFFDF289D5E2200C12245 /* ImagesAlexTask.xcdatamodel */;
+			path = ImagesAlexTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FABEFFCA289D5E2200C12245 /* Project object */;
+}
